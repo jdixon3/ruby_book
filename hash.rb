@@ -2,7 +2,8 @@
 
 movies = {:terminator => 1996,
           :jaws => 1976,
-          :matrix => 1999
+          :matrix => 1999,
+          :Remember_the_titans => 2001
         }
 
         movies.each { |k, v| puts v }
