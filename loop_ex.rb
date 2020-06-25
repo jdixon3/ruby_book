@@ -1,5 +1,9 @@
-# loop example
+# ruby book exercises
 
-loop do 
-  puts "this will keep printing until you git control c"
-end
+puts "What is your fav country?"
+answer = gets.chomp
+
+while answer != "stop"
+  puts "Wow, this sounds great, what else do you got?"
+    answer = gets.chomp
+  end 
